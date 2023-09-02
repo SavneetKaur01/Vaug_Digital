@@ -1,0 +1,36 @@
+.content_ab
+{
+	padding-top: 100px;
+	color: white;	
+	background-image: radial-gradient(#011f5f,#020228);
+	width: 100%;
+	height: 600px;
+}
+
+.content_ab h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 150px 200px 0px 200px;
+}
+
+.detail{
+	background-color: #e3e3e3;
+	border-radius: 30px;
+	padding: 20px;
+	color: #011f5f;
+}
+.main_feature{
+	margin: 100px 200px 100px 200px;
+}
+
+.main_feature img{
+
+	border-radius: 30px;
+}
+
+.advantage{
+	margin: 50px 150px 50px 150px;
+	color: #011f5f;
+
+}

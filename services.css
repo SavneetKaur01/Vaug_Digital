@@ -1,0 +1,146 @@
+.content_ab
+{
+	padding-top: 100px;
+	color: white;	
+	background-image: radial-gradient(#011f5f,#020228);
+	width: 100%;
+	height: 800px;
+}
+
+.content_ab h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 150px 200px 0px 200px;
+}
+
+.content_ab p{
+	text-align: center;
+	font-weight: bold;
+	padding: 20px 50px 0px 50px;
+	font-size: 20px;
+}
+
+.content_ab button{
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
+	color: #011f5f;
+}
+
+.con{
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 200px;
+}
+
+.st{
+	width: 550px;
+	height: 200px;
+}
+
+.con h1{
+	font-weight: bold;
+	color: #011f5f;
+}
+.mob{
+	width: 400px;
+	height: 500px;
+}
+
+.para1{
+	padding-top:10px; 
+	padding-left:10px;
+}
+.he{
+	color:rgb(0, 174, 239); 
+	background-color: #f2f6ff; 
+	font-weight: bold; 
+	padding:0px 10px 0px 10px; 
+	border-radius: 10px; 
+	line-height: 0.8em;
+}
+
+.features{
+	background-color: #f2f6ff;
+	height: 800px;
+	margin-top: 50px;
+	
+}
+
+.features h1{
+	text-align: center;
+	color: #011f5f;
+	font-weight: bold;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.features img{
+	border-radius: 20px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	/*padding-left: 0px;*/
+}
+
+.features h5{
+	padding-top: 30px;
+	color: #011f5f;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.wavy{
+	padding: 0px;
+}
+
+.scroll img{
+	width: 100px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faq{
+	margin: 50px 200px 30px 200px;
+}
+
+
+.accordion {
+	margin-top: 30px;
+  background-color: #eee;
+  color: #011f5f;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
